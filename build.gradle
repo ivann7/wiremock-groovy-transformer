@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.github.inik7.wiremock'
+version = '1.0'
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.5.0'
+    implementation 'com.github.tomakehurst:wiremock-standalone:2.18.0'
+}
